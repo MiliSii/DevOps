@@ -5,6 +5,12 @@ Installed: Ubuntu OS from https://releases.ubuntu.com/22.04/, VMware Workstation
 Groovy extensions for VSC: code-groovy, Groovy Lint, Format and Fix, Groovy and Code Runner.
 Also, updated sistem and install java and updated groovy through terminal code from this link https://computingforgeeks.com/how-to-install-apache-groovy-on-ubuntu/ .
 
+To access VSC:terminal-> code
+
+
+Changing memory:
+Player -> Manage -> Virtual Machine Stettings -> Memory -> Choose how much GB you need->OK
+
 
 Process to Create Virtual Machine using VMware Workstation:
 (From: https://kb.vmware.com/s/article/1018415#:~:text=To%20create%20a%20virtual%20machine%20using%20VMware%20Workstation%3A,An%20installer%20disc%20image%20file%20%28ISO%29%20See%20More.)
