@@ -13,8 +13,6 @@ Launch VMware Workstation.
 Click New Virtual Machine.
 Select the type of virtual machine you want to create and click Next:
 
-Note: Your choice depends partially on the hardware version you want your virtual machine to have. For more information, see Virtual machine hardware versions (1003746).
- 
 Custom: This gives you an option to create a virtual machine and choose its hardware compatibility. You can choose from Workstation 16.x, Workstation 15.x, Workstation 14.x .
 Typical: This creates a virtual machine which has the same hardware version as the version of Workstation you are using. If you are using Workstation 16.x, it creates a virtual machine with hardware version 16. If you are using Workstation 15.x a virtual machine with hardware version 15 is created.
  
