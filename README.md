@@ -7,7 +7,7 @@ Also, updated sistem and install java and updated groovy through terminal code f
 
 
 Process to Create Virtual Machine using VMware Workstation:
-
+(From: https://kb.vmware.com/s/article/1018415#:~:text=To%20create%20a%20virtual%20machine%20using%20VMware%20Workstation%3A,An%20installer%20disc%20image%20file%20%28ISO%29%20See%20More.)
 
 Launch VMware Workstation.
 Click New Virtual Machine.
@@ -44,4 +44,4 @@ Display – enable 3D graphics.
 Click Finish.
 When the virtual machine is powered on, the VMware Tools installation starts. You are prompted to restart your virtual machine once the Tools installation completes.
 
-From: https://kb.vmware.com/s/article/1018415#:~:text=To%20create%20a%20virtual%20machine%20using%20VMware%20Workstation%3A,An%20installer%20disc%20image%20file%20%28ISO%29%20See%20More.
+
