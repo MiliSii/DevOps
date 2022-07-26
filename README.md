@@ -65,7 +65,8 @@ When the virtual machine is powered on, the VMware Tools installation starts. Yo
 
 Day 2:
 
-Regular exresions
+Regular exresions: 
+
 A regular expression is a pattern that is used to find substrings in text. Groovy supports regular expressions natively using the ~”regex” expression. The text enclosed within the quotations represent the expression for comparison.
 
 FOR BUILD REGEX 
