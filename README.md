@@ -1,5 +1,7 @@
 # DevOps
 
+Day 1:
+
 Installed: Ubuntu OS from https://releases.ubuntu.com/22.04/, VMware Workstation from https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1624&productId=1039&rPId=91446, Visual Studio Code. 
 
 Groovy extensions for VSC: code-groovy, Groovy Lint, Format and Fix, Groovy and Code Runner.
@@ -61,4 +63,76 @@ Click Finish.
 
 When the virtual machine is powered on, the VMware Tools installation starts. You are prompted to restart your virtual machine once the Tools installation completes.
 
+Day 2:
+
+Regular exresions
+A regular expression is a pattern that is used to find substrings in text. Groovy supports regular expressions natively using the ~”regex” expression. The text enclosed within the quotations represent the expression for comparison.
+
+FOR BUILD REGEX 
+
+Character classes:
+
+.	any character except newline
+
+\w\d\s	word, digit, whitespace
+
+\W\D\S	not word, digit, whitespace
+
+[abc]	any of a, b, or c
+
+[^abc]	not a, b, or c
+
+[a-g]	character between a & g
+
+Anchors:
+
+^abc$	start / end of the string
+
+\b\B	word, not-word boundary
+
+Escaped characters
+
+\.\*\\	escaped special characters
+
+\t\n\r	tab, linefeed, carriage return
+
+Groups & Lookaround:
+
+(abc)	capture group
+
+\1	backreference to group #1
+
+(?:abc)	non-capturing group
+
+(?=abc)	positive lookahead
+
+(?!abc)	negative lookahead
+
+Quantifiers & Alternation:
+
+a*a+a?	0 or more, 1 or more, 0 or 1
+
+a{5}a{2,}	exactly five, two or more
+
+a{1,3}	between one & three
+
+a+?a{2,}?	match as few as possible
+
+ab|cd	match ab or cd
+
+Links used for learning: https://riptutorial.com/groovy/example/18073/basic-usage,
+
+https://giri-tech.blogspot.com/2018/10/navigate-safely-with-null-safe-operator.html,  
+
+https://docs.oracle.com/en/cloud/saas/applications-common/22a/cgsac/understanding-groovys-null-safe-comparison-operators.html#u30004087,
+
+https://compoundthinking.wordpress.com/2012/06/04/how-to-validate-email-address-with-regular-expression-in-groovy/,
+
+https://www.danvega.dev/blog/2013/08/20/groovys-null-safe-operator/,
+
+https://regexr.com/, 
+
+https://www.tutorialspoint.com/groovy/groovy_regular_expressions.htm#:~:text=A%20regular%20expression%20is%20a%20pattern%20that%20is,within%20the%20quotations%20represent%20the%20expression%20for%20comparison.,
+
+https://giri-tech.blogspot.com/2018/10/navigate-safely-with-null-safe-operator.html .
 
