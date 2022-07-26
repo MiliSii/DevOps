@@ -1,6 +1,10 @@
 # DevOps
 
+All .groove files have code with comments explaining the code. 
+
 Day 1:
+
+new.groovy files
 
 Installed: Ubuntu OS from https://releases.ubuntu.com/22.04/, VMware Workstation from https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1624&productId=1039&rPId=91446, Visual Studio Code. 
 
@@ -65,7 +69,9 @@ When the virtual machine is powered on, the VMware Tools installation starts. Yo
 
 Day 2:
 
-Regular exresions: 
+nullSafeOperator.groovy, regularExpresion.groovy, and ternaryOperator.groovy files
+
+Regular expression: 
 
 A regular expression is a pattern that is used to find substrings in text. Groovy supports regular expressions natively using the ~”regex” expression. The text enclosed within the quotations represent the expression for comparison.
 
@@ -121,7 +127,7 @@ a+?a{2,}?	match as few as possible
 
 ab|cd	match ab or cd
 
-Links used for learning: https://riptutorial.com/groovy/example/18073/basic-usage,
+Links used for learning null safe operator, ternary operator, regular expressions: https://riptutorial.com/groovy/example/18073/basic-usage,
 
 https://giri-tech.blogspot.com/2018/10/navigate-safely-with-null-safe-operator.html,  
 
