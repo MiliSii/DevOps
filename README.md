@@ -217,7 +217,9 @@ https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeli
 
 **Day 5**
 ---
--Job with parameters
--installed Docker
+- Job with parameters
+- installed Docker
+
 building parameters: https://www.theserverside.com/video/Modify-CI-jobs-with-this-Jenkins-parameterized-build-example
+
 installing docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
