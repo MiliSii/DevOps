@@ -152,10 +152,36 @@ Commands for installing Jenkins:
 Created jobs on Jenkins:
 DeclerativePipeline, JobParametrized, Maven, parallel_execution, scriptedP, test and test_Job.
 
+Diferent types of Jenkins job:
+1. Freestyle Project
+2. Pipeline
+3. Multiconfiguration Projects
+4. Folder
+5. GitHub organization
+6. Mutlibranch Pipeline
 
-- for opening jenkins https://www.youtube.com/watch?v=F_1AmlzP06U
+**Jenkins Pipeline** is a stack of Jenkins plugins and other tools which helps implementing and continuous integration and delivery pipelines. In Jenkins, Pipelines are written in DSL code which implements this continuous integration and delivery pipeline jobs.
 
-- for installing maven lugin https://huongdanjava.com/install-maven-integration-plugin-in-jenkins.html#:~:text=Just%20like%20Install%20Git%20plugin%20in%20Jenkins%2C%20first,now%20and%20install%20after%20restart%20to%20install%20it.
+Get the pipeline plugin from the Jenkins plugin market place and install into the Jenkins instance. For the same, Go to Manage Jenkins > Manage Plugins. > Available tab, search for “build pipeline”.
+
+There are two type of Jenkins pipeline based on which format the Jenkinsfile is written.
+
+1. Declarative pipeline
+2. Scripted pipeline
+
+Declarative Pipeline
+The Declarative pipeline is a new feature that is added to create the pipeline. This is basically written in a Jenkinsfile which can be stored into a source code management system such as Git. Declarative pipelines is an ideal solution for the simple continuous delivery pipeline as it has very limited and pre-defined structure.
+
+The structure and syntax of the Declarative pipeline:
+
+- any – Which mean the whole pipeline will run on any available agent.
+- none – Which mean all the stages under the block will have to declared with agent separately.
+- label –  this is just a label for the Jenkins environment
+- docker –  this is to run the pipeline in Docker environment.
+
+for opening jenkins https://www.youtube.com/watch?v=F_1AmlzP06U
+
+for installing maven lugin https://huongdanjava.com/install-maven-integration-plugin-in-jenkins.html#:~:text=Just%20like%20Install%20Git%20plugin%20in%20Jenkins%2C%20first,now%20and%20install%20after%20restart%20to%20install%20it.
 
 - for scripted and notscripted papelines https://www.theserverside.com/answer/Declarative-vs-scripted-pipelines-Whats-the-difference#:~:text=Declarative%20pipelines%20always%20begin%20with%20the%20word%20pipeline.,into%20individual%20stages%20that%20can%20contain%20multiple%20steps.
 
@@ -163,4 +189,5 @@ DeclerativePipeline, JobParametrized, Maven, parallel_execution, scriptedP, test
 
 **Day 5**
 ---
-
+-Job with parameters
+-installed Docker
