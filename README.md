@@ -220,6 +220,28 @@ https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeli
 - Job with parameters
 - installed Docker (command docker run hello-world not working, but sudo docker run hello-world works )
 
+
+**Docker Images vs Containers**
+When discussing the difference between images and containers, it isn’t fair to contrast them as opposing entities. Both elements are closely related and are part of a system defined by the Docker platform.
+
+If you have read the previous two sections that define docker images and docker containers, you may already have some understanding as to how the two establish a relationship.
+
+Images can exist without containers, whereas a container needs to run an image to exist. Therefore, containers are dependent on images and use them to construct a run-time environment and run an application.
+
+The two concepts exist as essential components (or rather phases) in the process of running a Docker container. Having a running container is the final “phase” of that process, indicating it is dependent on previous steps and components. That is why docker images essentially govern and shape containers.
+
+A **Docker registry** is a system for storing and distributing Docker images with specific names. There may be several versions of the same image, each with its own set of tags. A Docker registry is separated into Docker repositories, each of which holds all image modifications. The registry may be used by Docker users to fetch images locally and to push new images to the registry (given adequate access permissions when applicable). The registry is a server-side application that stores and distributes Docker images. It is stateless and extremely scalable. 
+
+
+
 building parameters: https://www.theserverside.com/video/Modify-CI-jobs-with-this-Jenkins-parameterized-build-example
 
 installing docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
+docker registry: https://www.geeksforgeeks.org/what-is-docker-registry/
+
+
+
+
+
+(for README.md https://www.markdownguide.org/cheat-sheet)
