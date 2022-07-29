@@ -133,7 +133,7 @@ https://giri-tech.blogspot.com/2018/10/navigate-safely-with-null-safe-operator.h
 **Day 3:** 
 ---
 1. I created VM on Azure portal
-2. Install Jenkines 
+2. Installed Jenkines 
 
 Commands to generate SSH key and open SSH file in VSC: 
 
@@ -141,15 +141,15 @@ Commands to generate SSH key and open SSH file in VSC:
 2. ssh-keygen
 3. code id_rsa.pub
     
-Commands for installing Jenkines:
+Commands for installing Jenkins:
 
 
 - Tutorial for creating VM on Azure : https://www.youtube.com/watch?v=QOv_-xBXkpo 
-- Tutorial for installing Jenkines: https://www.youtube.com/watch?v=F_1AmlzP06U 
+- Tutorial for installing Jenkins: https://www.youtube.com/watch?v=F_1AmlzP06U 
 
 **Day 4**
 ---
-Creating jobs on Jenkines
+Created jobs on Jenkins:
 DeclerativePipeline, JobParametrized, Maven, parallel_execution, scriptedP, test and test_Job.
 
 
