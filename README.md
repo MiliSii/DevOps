@@ -2,7 +2,7 @@
 
 All .groove files have code with comments explaining the code. 
 
-Day 1:
+#Day 1:
 
 new.groovy files
 
@@ -67,7 +67,7 @@ Click Finish.
 
 When the virtual machine is powered on, the VMware Tools installation starts. You are prompted to restart your virtual machine once the Tools installation completes.
 
-Day 2:
+#Day 2:
 
 nullSafeOperator.groovy, regularExpresion.groovy, and ternaryOperator.groovy files
 
