@@ -169,7 +169,7 @@ There are two type of Jenkins pipeline based on which format the Jenkinsfile is 
 1. Declarative pipeline
 2. Scripted pipeline
 
-Declarative Pipeline
+**Declarative Pipeline**
 The Declarative pipeline is a new feature that is added to create the pipeline. This is basically written in a Jenkinsfile which can be stored into a source code management system such as Git. Declarative pipelines is an ideal solution for the simple continuous delivery pipeline as it has very limited and pre-defined structure.
 
 The structure and syntax of the Declarative pipeline:
@@ -179,6 +179,23 @@ The structure and syntax of the Declarative pipeline:
 - label –  this is just a label for the Jenkins environment
 - docker –  this is to run the pipeline in Docker environment.
 
+**Scripted Pipeline**
+The scripted pipeline is a traditional way of writing the Jenkins pipeline as code. Ideally, Scripted pipeline is written in Jenkins file on web UI of Jenkins. Unlike Declarative pipeline, the scripted pipeline strictly uses groovy based syntax. Since this, The scripted pipeline provides huge control over the script and can manipulate the flow of script extensively. This helps developers to develop advance and complex pipeline as code.
+
+The structure and syntax of the scripted pipeline
+
+Node Block:
+Node is the part of the Jenkins architecture where Node or agent node will run the part of the workload of the jobs and master node will handle the configuration of the job. 
+
+Stage Block:
+Stage block can be a single stage or multiple as the task goes. And it may have common stages like
+
+- Cloning the code from SCM
+- Building the project
+- Running the Unit Test cases
+- Deploying the code
+- Other functional and performance tests.
+
 for opening jenkins https://www.youtube.com/watch?v=F_1AmlzP06U
 
 for installing maven lugin https://huongdanjava.com/install-maven-integration-plugin-in-jenkins.html#:~:text=Just%20like%20Install%20Git%20plugin%20in%20Jenkins%2C%20first,now%20and%20install%20after%20restart%20to%20install%20it.
@@ -186,6 +203,7 @@ for installing maven lugin https://huongdanjava.com/install-maven-integration-pl
 for scripted and notscripted papelines https://www.theserverside.com/answer/Declarative-vs-scripted-pipelines-Whats-the-difference#:~:text=Declarative%20pipelines%20always%20begin%20with%20the%20word%20pipeline.,into%20individual%20stages%20that%20can%20contain%20multiple%20steps.
 
 for declarative pipleline https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
+https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeline%2C%20the%20scripted%20pipeline%20strictly%20uses,to%20develop%20advance%20and%20complex%20pipeline%20as%20code.
 
 **Day 5**
 ---
