@@ -183,9 +183,9 @@ for opening jenkins https://www.youtube.com/watch?v=F_1AmlzP06U
 
 for installing maven lugin https://huongdanjava.com/install-maven-integration-plugin-in-jenkins.html#:~:text=Just%20like%20Install%20Git%20plugin%20in%20Jenkins%2C%20first,now%20and%20install%20after%20restart%20to%20install%20it.
 
-- for scripted and notscripted papelines https://www.theserverside.com/answer/Declarative-vs-scripted-pipelines-Whats-the-difference#:~:text=Declarative%20pipelines%20always%20begin%20with%20the%20word%20pipeline.,into%20individual%20stages%20that%20can%20contain%20multiple%20steps.
+for scripted and notscripted papelines https://www.theserverside.com/answer/Declarative-vs-scripted-pipelines-Whats-the-difference#:~:text=Declarative%20pipelines%20always%20begin%20with%20the%20word%20pipeline.,into%20individual%20stages%20that%20can%20contain%20multiple%20steps.
 
-- for declarative pipleline https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
+for declarative pipleline https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
 
 **Day 5**
 ---
