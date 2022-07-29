@@ -218,7 +218,7 @@ https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeli
 **Day 5**
 ---
 - Job with parameters
-- installed Docker
+- installed Docker (command docker run hello-world not working, but sudo docker run hello-world works )
 
 building parameters: https://www.theserverside.com/video/Modify-CI-jobs-with-this-Jenkins-parameterized-build-example
 
