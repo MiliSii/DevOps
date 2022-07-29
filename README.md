@@ -239,7 +239,7 @@ building parameters: https://www.theserverside.com/video/Modify-CI-jobs-with-thi
 command for installing docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
 
-command for creating a simple docker image (some of this commmands are missing sudo in front of them): https://phoenixnap.com/kb/create-docker-images-with-dockerfile#:~:text=1%20As%20an%20example%2C%20we%20will%20create%20a,with%20a%20text%20editor%20of%20your%20choice.%20
+command for creating a simple docker image (some of this commmands need to have sudo in front of them): https://phoenixnap.com/kb/create-docker-images-with-dockerfile#:~:text=1%20As%20an%20example%2C%20we%20will%20create%20a,with%20a%20text%20editor%20of%20your%20choice.%20
 
 docker registry: https://www.geeksforgeeks.org/what-is-docker-registry/
 
