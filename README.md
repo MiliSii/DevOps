@@ -196,6 +196,16 @@ Stage block can be a single stage or multiple as the task goes. And it may have 
 - Deploying the code
 - Other functional and performance tests.
 
+A **Jenkins agent** is an executable, residing on a node, that is tasked by the controller to run a job.
+
+Managing the different Jenkins agents is the job of the agent controller, also known as the master node. In a single Jenkins node configuration, the controller, can also act as both a Jenkin agent and run build jobs.
+
+Jenkins agent:
+https://www.jenkins.io/doc/book/using/using-agents/, 
+
+https://adamtheautomator.com/jenkins-agent/#:~:text=A%20Jenkins%20agent%20is%20an%20executable%2C%20residing%20on,both%20a%20Jenkin%20agent%20and%20run%20build%20jobs.
+
+
 for opening jenkins https://www.youtube.com/watch?v=F_1AmlzP06U
 
 for installing maven lugin https://huongdanjava.com/install-maven-integration-plugin-in-jenkins.html#:~:text=Just%20like%20Install%20Git%20plugin%20in%20Jenkins%2C%20first,now%20and%20install%20after%20restart%20to%20install%20it.
@@ -209,3 +219,5 @@ https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeli
 ---
 -Job with parameters
 -installed Docker
+building parameters: https://www.theserverside.com/video/Modify-CI-jobs-with-this-Jenkins-parameterized-build-example
+installing docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
