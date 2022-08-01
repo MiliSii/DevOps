@@ -224,7 +224,7 @@ https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeli
 **Docker Images vs Containers**
 When discussing the difference between images and containers, it isn’t fair to contrast them as opposing entities. Both elements are closely related and are part of a system defined by the Docker platform.
 
-If you have read the previous two sections that define docker images and docker containers, you may already have some understanding as to how the two establish a relationship.
+
 
 Images can exist without containers, whereas a container needs to run an image to exist. Therefore, containers are dependent on images and use them to construct a run-time environment and run an application.
 
