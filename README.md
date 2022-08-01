@@ -243,7 +243,7 @@ command for creating a simple docker image (some of this commmands need to have 
 
 docker registry: https://www.geeksforgeeks.org/what-is-docker-registry/
 
-commands for pushing image into repository: https://www.geeksforgeeks.org/how-to-push-a-container-image-to-a-docker-repository/ 
+commands for pushing image into repository: https://www.geeksforgeeks.org/how-to-push-a-container-image-to-a-docker-repository/ and https://www.youtube.com/watch?v=3SYJQ-z4LBw 
 
 
 
