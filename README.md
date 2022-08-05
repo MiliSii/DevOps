@@ -152,6 +152,8 @@ Commands for installing Jenkins:
 Created jobs on Jenkins:
 DeclerativePipeline, JobParametrized, Maven, parallel_execution, scriptedP, test and test_Job.
 
+Go on url: http://20.224.149.71:8080/ => terminal VM in VMVare, comand sudo cat /var//lib/jenkins/secrets/initalAdminPassword, copy result => paste password in jenkins => Install Suggested plugins=> Create First Admin User => Save and Continue => Save and Finish => Finish
+
 Diferent types of Jenkins job:
 1. Freestyle Project
 2. Pipeline
