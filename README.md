@@ -254,7 +254,7 @@ commands for pushing image into repository: https://www.geeksforgeeks.org/how-to
 **Day 6, 7, 8, 9, 10**
 ---
 Created and trying to fix job on Jenkins.
-Jobs on Jenkins: parallel_execution, SC2, webhook, webhookExecutedJob and JobForImage.
+Jobs on Jenkins: parallel_execution, SC2, webhook, webhookExecutedJob, jobWithGitHub and JobForImage.
 
 Created 2 webhook on Mavan Project (on github: https://github.com/MiliSii/HelloWorld.git). First push request with github_webhook and secung pull request with generic-webhook-trigger.
 Payload URL: http://20.224.149.71:8080/github-webhook/ and http://20.224.149.71:8080/generic-webhook-trigger/invoke?token=test 
