@@ -150,7 +150,7 @@ Commands for installing Jenkins:
 **Day 4**
 ---
 Created jobs on Jenkins:
-DeclerativePipeline, JobParametrized, Maven, parallel_execution, scriptedP, test and test_Job.
+DeclerativePipeline, JobParametrized, Maven, scriptedP, test and test_Job.
 
 Go on url: http://20.224.149.71:8080/ => terminal VM in VMVare, comand sudo cat /var//lib/jenkins/secrets/initalAdminPassword, copy result => paste password in jenkins => Install Suggested plugins=> Create First Admin User => Save and Continue => Save and Finish => Finish
 
@@ -251,13 +251,7 @@ commands for pushing image into repository: https://www.geeksforgeeks.org/how-to
 
 (for README.md https://www.markdownguide.org/cheat-sheet)
 
-**Day 6**
+**Day 6, 7, 8, 9, 10**
 ---
-**Day 7**
----
-**Day 8**
----
-**Day 9**
----
-**Day 10**
----
+Created and trying to fix job on Jenkins.
+Jobs on Jenkins: parallel_execution, SC2, webhook, webhookExecutedJob and JobForImage.
