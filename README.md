@@ -248,3 +248,14 @@ commands for pushing image into repository: https://www.geeksforgeeks.org/how-to
 
 
 (for README.md https://www.markdownguide.org/cheat-sheet)
+
+**Day 6**
+---
+**Day 7**
+---
+**Day 8**
+---
+**Day 9**
+---
+**Day 10**
+---
