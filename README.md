@@ -251,7 +251,7 @@ commands for pushing image into repository: https://www.geeksforgeeks.org/how-to
 
 (for README.md https://www.markdownguide.org/cheat-sheet)
 
-**Day 6, 7, 8, 9, 10**
+**Day 6, 7, 8, 9 and 10**
 ---
 Created and trying to fix job on Jenkins.
 Jobs on Jenkins: parallel_execution, SC2, webhook, webhookExecutedJob, jobWithGitHub and JobForImage.
