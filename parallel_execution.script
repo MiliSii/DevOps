@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+    options {
+        timeout(time: 30, unit: 'MINUTES') 
+    }
+    
+    stages {
+        stage('Build') {
+            parallel {
+                stage('Build1') {
+                    steps{
+                    script{
+                     build job: 'test'
+                    }
+                }
+            }
+                stage('Build2'){
+                    steps{
+                    script{
+                      build job: 'testJob'
+                    }
+                }
+            }
+                 stage('Build3') {
+                     steps{
+                    script{
+                     build job: 'Maven'
+                       }
+                    }   
+                }
+                
+            }
+        }
+    }
+}
