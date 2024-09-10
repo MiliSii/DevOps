@@ -2,7 +2,6 @@
 
 All .groove files have code with comments explaining the code. 
 
-**Day 1:**
 ---
 new.groovy files
 
@@ -70,7 +69,6 @@ Process to Create Virtual Machine using VMware Workstation:
 
 When the virtual machine is powered on, the VMware Tools installation starts. You are prompted to restart your virtual machine once the Tools installation completes.
 
-**Day 2:**
 ---
 nullSafeOperator.groovy, regularExpresion.groovy, and ternaryOperator.groovy files
 
@@ -130,7 +128,6 @@ https://www.tutorialspoint.com/groovy/groovy_regular_expressions.htm#:~:text=A%2
 
 https://giri-tech.blogspot.com/2018/10/navigate-safely-with-null-safe-operator.html .
 
-**Day 3:** 
 ---
 1. I created VM on Azure portal
 2. Installed Jenkines 
@@ -217,7 +214,6 @@ for scripted and notscripted papelines https://www.theserverside.com/answer/Decl
 for declarative pipleline https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
 https://digitalvarys.com/jenkins-pipeline/#:~:text=Unlike%20Declarative%20pipeline%2C%20the%20scripted%20pipeline%20strictly%20uses,to%20develop%20advance%20and%20complex%20pipeline%20as%20code.
 
-**Day 5**
 ---
 - Job with parameters
 - installed Docker (command docker run hello-world not working, but sudo docker run hello-world works )
@@ -251,7 +247,6 @@ commands for pushing image into repository: https://www.geeksforgeeks.org/how-to
 
 (for README.md https://www.markdownguide.org/cheat-sheet)
 
-**Day 6, 7, 8, 9 and 10**
 ---
 Created and trying to fix job on Jenkins.
 Jobs on Jenkins: parallel_execution, SC2, webhook, webhookExecutedJob, jobWithGitHub and JobForImage.
