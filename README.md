@@ -144,7 +144,6 @@ Commands for installing Jenkins:
 - Tutorial for creating VM on Azure : https://www.youtube.com/watch?v=QOv_-xBXkpo 
 - Tutorial for installing Jenkins: https://www.youtube.com/watch?v=F_1AmlzP06U 
 
-**Day 4**
 ---
 Created jobs on Jenkins:
 DeclerativePipeline, JobParametrized, Maven, scriptedP, test and test_Job.
